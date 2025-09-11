@@ -1,0 +1,18 @@
+body{
+    background-image: url("https://fastly.picsum.photos/id/885/200/300.jpg?hmac=rJMpl1QK1HPl8QUcWolubwQ6u_kjZaaZBL4V4biI81I");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.head{
+    background-color:bisque;
+    text-align: center;
+    padding: 40px;
+    border-radius: 15px;
+    width: 400px;
+    margin: 250px;
+}
+/* *{
+    padding: 50px;
+    margin: 50px;
+} */

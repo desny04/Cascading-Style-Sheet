@@ -1,0 +1,39 @@
+*{
+    padding: 10px;
+    margin: 10px;
+}
+div{
+    border-radius: 15px;
+}
+.header{
+    background-color: blueviolet;
+}
+.name{
+    display: inline-block;
+     width: 40vw;
+}
+
+.detail{
+    display: inline-block;
+    width: 40vw;
+}
+
+.phone{
+    display: inline-block;
+    width: 40vw;
+}
+.content{
+    background-color: rgb(244, 232, 232);
+}
+.intro{
+    text-align:justify;
+}
+
+.junior{
+    display: inline-block;
+    width: 30vw;
+}
+.assi{
+    display: inline-block;
+    width: 30vw;
+}

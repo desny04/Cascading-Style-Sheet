@@ -1,0 +1,42 @@
+.first{
+    text-align: center;
+}
+.second{
+    text-align: right;
+}
+.third{
+    text-align: left;
+}
+.fourth{
+    text-align: justify;
+}
+.end{
+    text-align: end;
+}
+.start{
+    text-align: start;
+}
+.ltr{
+    direction: ltr;
+}
+.rtl{
+    direction: rtl;
+}
+.rtl1{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+.img img{
+    vertical-align:middle;
+}
+
+/*.dec{
+    text-decoration-line:underline;
+    text-decoration-color:red ;
+    text-decoration-style:dotted ;
+    text-decoration-thickness:5px;
+}*/
+
+.dec{
+    text-decoration: underline dotted red 5px;
+}

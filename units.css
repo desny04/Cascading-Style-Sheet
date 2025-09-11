@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+div{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(248, 225, 143);
+}
+img{
+    padding:20px 20px;
+    border-bottom: 4px solid black;
+    border-top: 4px solid black;
+    border-radius: 50px;
+}
+
+
+
+
+.container{
+    width:250vmin;
+    height: 40vmax;
+    background-color:red ;
+}
+
+.container{
+   font-size: 10em;
+    background-color: aquamarine;
+}

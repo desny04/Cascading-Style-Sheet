@@ -1,0 +1,49 @@
+.one{
+    text-transform: lowercase;
+}
+
+.two{
+    text-transform: uppercase;
+}
+
+.three{
+    text-transform: capitalize;
+}
+
+.indent{
+    text-indent: 100px;
+}
+
+.letter{
+    letter-spacing: 15px;
+}
+
+.line{
+    line-height: 50px;
+}
+
+.word{
+    word-spacing: 20px;
+}
+
+.white{
+    white-space: nowrap;
+}
+
+.shadow{
+    color:blue;
+    text-shadow: 2px 2px 0px rgb(0, 128, 248);
+}
+
+.rgba{
+    color:rgba(255,100,150,0.5)
+}
+
+.hex{
+    color:#0000ffb8;
+}
+
+.hsl{
+    color:hsl(360, 100%, 50%)
+}
+

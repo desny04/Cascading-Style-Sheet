@@ -1,0 +1,13 @@
+div{
+    /*background-color: blue;*/
+    color: black;
+    width: 400px;
+    height: 500px;
+    background-image: url("https://picsum.photos/200/300");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: contain;
+    border: 10px dashed rebeccapurple;
+    background-origin: content-box;
+    background-clip: padding-box;
+}
