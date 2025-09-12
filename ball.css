@@ -1,0 +1,39 @@
+
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+  width: 600px; 
+  height: 700px;
+  border-bottom: 10px solid black; 
+}
+.ball{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: blue;
+    position:sticky;
+    animation-name: colorchange;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-timing-function:ease;
+    animation-iteration-count:infinite;
+}
+
+@keyframes colorchange
+{
+    0%{
+        top: 0px;
+    }
+    50%{
+        top: 650px;
+        background-color: aquamarine;
+    }
+    55%{
+        background-color: aqua;
+    }
+    100%{
+        top: 0%;
+    }
+}
