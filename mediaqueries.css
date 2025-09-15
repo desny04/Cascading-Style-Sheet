@@ -1,8 +1,24 @@
-img{
-    width: 70px;
-    height: 70px;
-    border-radius: 100%;
+/* .contain{
+    width: 1000px;
+    height: 600px;
+    background-color: darkcyan;
+    color: white;
 }
+
+@media screen and (max-width:1024px) {
+    .contain{
+        background-color: blanchedalmond;
+        color: black;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .contain{
+        background-color:lightpink;
+        color:darkslategrey;
+    }
+} */
+
 .nav{
     background-color: darkslategray;
     width: 100%;
@@ -50,15 +66,17 @@ button{
 }
 .cards{
     width: 200px;
-    height: 200px;
+    height: 50px;
     background-color:rgb(173, 211, 212);
     border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 1px 1px;
-    /* flex: 2 2 100px; */
-    /* flex-grow: 0; */
-    /* flex-shrink: 0; */
-    /* flex-basis:100px; */
+}
+
+@media screen and (max-width:600px) {
+    .nav{
+        
+    }    
 }
